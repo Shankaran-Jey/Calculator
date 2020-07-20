@@ -15,19 +15,6 @@ Bottom = Entry(root,width = 16, font = ("Verdana 25"),border = 0,background = "#
 Bottom.grid(row = 1,column = 0,columnspan = 4)
 
 
-
-"""Menu_Bar = Menu(root)
-root.config(menu=Menu_Bar)
-   
-
-Sub_Menu = Menu(Menu_Bar,tearoff = 0)
-Menu_Bar.add_cascade(label = "Functions",menu = Sub_Menu)
-Sub_Menu.add_command(label = "Primality Test")"""
-
-def Primality_Test():
-    pass
-    
-
 def button_clear():
     Top.delete(0,END)
     Bottom.delete(0,END)
